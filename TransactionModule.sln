@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionModule", "TransactionModule.csproj", "{E826D680-9025-4F62-8209-38F026346CE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E826D680-9025-4F62-8209-38F026346CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E826D680-9025-4F62-8209-38F026346CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E826D680-9025-4F62-8209-38F026346CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E826D680-9025-4F62-8209-38F026346CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {710D274C-AE47-43A6-8260-87D7FA1C0D35}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: transactions
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: TransactionModule   
+  template:
+    metadata:
+      labels:
+        app: TransactionModule
+    spec:
+      containers:
+      - name: transactions_detail
+        image: pensionmanagementcr.azurecr.io/transactionsdetailrepos:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: transactionssn
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: transactions_detail
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: TransactionModule

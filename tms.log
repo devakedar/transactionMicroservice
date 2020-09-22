@@ -1,0 +1,166 @@
+INFO  01:36:53 Application started. Press Ctrl+C to shut down.
+INFO  01:36:53 Application started. Press Ctrl+C to shut down.
+INFO  01:36:53 Hosting environment: Development
+INFO  01:36:53 Hosting environment: Development
+INFO  01:36:53 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  01:36:53 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  01:40:42 Application started. Press Ctrl+C to shut down.
+INFO  01:40:42 Application started. Press Ctrl+C to shut down.
+INFO  01:40:42 Hosting environment: Development
+INFO  01:40:42 Hosting environment: Development
+INFO  01:40:42 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  01:40:42 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  01:51:11 Application started. Press Ctrl+C to shut down.
+INFO  01:51:11 Application started. Press Ctrl+C to shut down.
+INFO  01:51:11 Hosting environment: Development
+INFO  01:51:11 Hosting environment: Development
+INFO  01:51:11 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  01:51:11 Content root path: C:\Users\Deva\source\repos\TransactionModule
+ERROR 01:51:16 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Transactions" for actions - TransactionModule.Controllers.TransactionsController.Deposit (TransactionModule),TransactionModule.Controllers.TransactionsController.Withdraw (TransactionModule). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:51:16 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Transactions" for actions - TransactionModule.Controllers.TransactionsController.Deposit (TransactionModule),TransactionModule.Controllers.TransactionsController.Withdraw (TransactionModule). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:52:40 Application started. Press Ctrl+C to shut down.
+INFO  01:52:40 Application started. Press Ctrl+C to shut down.
+INFO  01:52:40 Hosting environment: Development
+INFO  01:52:40 Hosting environment: Development
+INFO  01:52:40 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  01:52:40 Content root path: C:\Users\Deva\source\repos\TransactionModule
+ERROR 01:52:49 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Transactions" for actions - TransactionModule.Controllers.TransactionsController.Deposit (TransactionModule),TransactionModule.Controllers.TransactionsController.Withdraw (TransactionModule). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:52:49 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Transactions" for actions - TransactionModule.Controllers.TransactionsController.Deposit (TransactionModule),TransactionModule.Controllers.TransactionsController.Withdraw (TransactionModule). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:58:09 Application started. Press Ctrl+C to shut down.
+INFO  01:58:09 Application started. Press Ctrl+C to shut down.
+INFO  01:58:09 Hosting environment: Development
+INFO  01:58:09 Hosting environment: Development
+INFO  01:58:09 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  01:58:09 Content root path: C:\Users\Deva\source\repos\TransactionModule
+ERROR 01:58:13 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Transactions" for actions - TransactionModule.Controllers.TransactionsController.Deposit (TransactionModule),TransactionModule.Controllers.TransactionsController.Withdraw (TransactionModule). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:58:13 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Transactions" for actions - TransactionModule.Controllers.TransactionsController.Deposit (TransactionModule),TransactionModule.Controllers.TransactionsController.Withdraw (TransactionModule). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:02:53 Application started. Press Ctrl+C to shut down.
+INFO  02:02:53 Application started. Press Ctrl+C to shut down.
+INFO  02:02:53 Hosting environment: Development
+INFO  02:02:53 Hosting environment: Development
+INFO  02:02:53 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:02:53 Content root path: C:\Users\Deva\source\repos\TransactionModule
+ERROR 02:02:54 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Transactions" for actions - TransactionModule.Controllers.TransactionsController.Deposit (TransactionModule),TransactionModule.Controllers.TransactionsController.Withdraw (TransactionModule). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:02:54 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Transactions" for actions - TransactionModule.Controllers.TransactionsController.Deposit (TransactionModule),TransactionModule.Controllers.TransactionsController.Withdraw (TransactionModule). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:03:52 Application started. Press Ctrl+C to shut down.
+INFO  02:03:52 Application started. Press Ctrl+C to shut down.
+INFO  02:03:52 Hosting environment: Development
+INFO  02:03:52 Hosting environment: Development
+INFO  02:03:52 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:03:52 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:05:25 Application started. Press Ctrl+C to shut down.
+INFO  02:05:25 Application started. Press Ctrl+C to shut down.
+INFO  02:05:25 Hosting environment: Development
+INFO  02:05:25 Hosting environment: Development
+INFO  02:05:25 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:05:25 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:10:29 Application started. Press Ctrl+C to shut down.
+INFO  02:10:29 Application started. Press Ctrl+C to shut down.
+INFO  02:10:29 Hosting environment: Development
+INFO  02:10:29 Hosting environment: Development
+INFO  02:10:29 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:10:29 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:11:20 Application started. Press Ctrl+C to shut down.
+INFO  02:11:20 Application started. Press Ctrl+C to shut down.
+INFO  02:11:20 Hosting environment: Development
+INFO  02:11:20 Hosting environment: Development
+INFO  02:11:20 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:11:20 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:12:51 Application started. Press Ctrl+C to shut down.
+INFO  02:12:51 Application started. Press Ctrl+C to shut down.
+INFO  02:12:51 Hosting environment: Development
+INFO  02:12:51 Hosting environment: Development
+INFO  02:12:51 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:12:51 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:39:15 Application started. Press Ctrl+C to shut down.
+INFO  02:39:15 Application started. Press Ctrl+C to shut down.
+INFO  02:39:15 Hosting environment: Development
+INFO  02:39:15 Hosting environment: Development
+INFO  02:39:15 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:39:15 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:41:23 Application started. Press Ctrl+C to shut down.
+INFO  02:41:23 Application started. Press Ctrl+C to shut down.
+INFO  02:41:23 Hosting environment: Development
+INFO  02:41:23 Hosting environment: Development
+INFO  02:41:23 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:41:23 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:43:05 Application started. Press Ctrl+C to shut down.
+INFO  02:43:05 Application started. Press Ctrl+C to shut down.
+INFO  02:43:05 Hosting environment: Development
+INFO  02:43:05 Hosting environment: Development
+INFO  02:43:05 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:43:05 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:45:38 Application started. Press Ctrl+C to shut down.
+INFO  02:45:38 Application started. Press Ctrl+C to shut down.
+INFO  02:45:38 Hosting environment: Development
+INFO  02:45:38 Hosting environment: Development
+INFO  02:45:38 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:45:38 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:52:52 Application started. Press Ctrl+C to shut down.
+INFO  02:52:52 Application started. Press Ctrl+C to shut down.
+INFO  02:52:52 Hosting environment: Development
+INFO  02:52:52 Hosting environment: Development
+INFO  02:52:52 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  02:52:52 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  03:12:57 Application started. Press Ctrl+C to shut down.
+INFO  03:12:57 Application started. Press Ctrl+C to shut down.
+INFO  03:12:57 Hosting environment: Development
+INFO  03:12:57 Hosting environment: Development
+INFO  03:12:57 Content root path: C:\Users\Deva\source\repos\TransactionModule
+INFO  03:12:57 Content root path: C:\Users\Deva\source\repos\TransactionModule
